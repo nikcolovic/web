@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <!--
+      Labels/Grouping
+● Creates a form used for catering reservations
+
+● The form contains multiple elements split into groups
+● Each element should have a label assigned to it
+
+
+  -->  
+<form action="">
+<!-- First group
+First group
+● Name of the group should be Personal data;
+● The first field is for the name
+● The second one is for the email address
+● The third is for the phone number-->
+<fieldset>
+<legend> Personal data: </legend>
+<br>
+<label> Full Name: 
+    <br>
+    <input type="text" name="text">
+</label>
+<br>
+<label> E-mail: 
+    <br>
+    <input type="text" name="email">
+</label>
+<br>
+<label> Phone: 
+    <br>
+    <input type="text" name="telephone">
+</label>
+</fieldset>
+<br>
+<!-- Second group
+Second group
+● Name of the group should be &quot;Location&quot;
+● It should contain fields for:
+○ City
+○ Street
+○ Street number-->
+<br>
+<fieldset>
+<legend> Location:</legend>
+<br>
+<label> City: 
+    <br>
+    <input type="text" name="">
+</label>
+<br>
+<label> Adress: 
+    <br>
+    <input type="text" name="text">
+</label>
+<br>
+<label> Number: 
+    <br>
+    <input type="text" name="number">
+</label>
+</fieldset>
+<br>
+<br>
+<!-- Third group
+Third group
+● Name of the group should be &quot;Event info&quot;
+● The first element is dropdown containing the following options:
+○ birthday
+○ wedding (should be selected by default)
+○ company
+● The second element is for getting number of expected guests and it’s
+an input type element
+● Placeholder is a number you choose-->
+<fieldset>
+<legend>Event info:</legend>
+<label for="">
+    <br>
+    <select name="Event">
+        <option value="Birthday"> Birthday</option>
+        <option value="Wedding" selected="selected"> Wedding </option>
+        <option value="Company event"> Company event</option>
+    </select>
+    <br>
+    <br>
+    <label for="number">Estimated number of guests</label>
+    <input type="number" name="number" required min="100" max="500" placeholder="100-500">
+    <br>
+     
+</label>
+</fieldset>
+</form>
+</body>
+</html>
