@@ -1,0 +1,51 @@
+.ul1{
+    list-style-type: circle ;
+}
+.ul2{
+    list-style-type: square;
+}
+.ol1{
+    list-style-type:upper-alpha;
+}
+.ol2{
+    list-style-type: upper-roman;
+}
+div {
+    width: 400px;
+}
+div ul {
+    list-style-image: url(./../images/star.png);
+}
+.inside {
+    list-style-position: inside;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0px;
+    border: 1px solid;
+    padding: 10px;
+}
+th {
+    background-color: red;
+    color: white;
+    padding: 10px 10px;
+}
+tr {
+    padding: 10px auto;
+}
+tr:nth-child(odd) {
+    background-color: grey
+}
+tr:hover {
+    background-color: khaki;
+}
+
+
+
+
+
+
+
+
+

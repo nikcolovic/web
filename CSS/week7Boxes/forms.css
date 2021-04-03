@@ -1,0 +1,68 @@
+div {
+    width: 400px;
+    margin: auto;
+    background-color: rgb(227, 232, 232);
+    -webkit-border-top-left-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -moz-border-radius-topleft: 20px;
+    -moz-border-radius-bottomright: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+body{
+    border: 2px solid;
+    width: 420 px;
+    height: 600px;
+    padding: 20px 20px 20px 20px;
+}
+span{
+    color:orange
+}
+h1{
+    color: midnightblue;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+hr{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    font-family: sans-serif;
+    margin-left: 10%;
+    font-size: 20px;
+    margin-bottom: auto;
+}
+input{
+    width: 80%;
+    height: 35px;
+    align-items: center;
+    margin: auto 10%;
+    -webkit-box-shadow: 5px 5px 15px -1px #595959; 
+    box-shadow: 5px 5px 15px -1px #595959; 
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+form {
+    padding: 20px 10px 40px 10px;
+    opacity: 70%;
+
+}
+#submit{
+    background-color:rgb(255,51,51);
+    color: white;
+    cursor: url(.././images/robinson.png), auto;
+    
+}
+input:hover{
+    cursor: pointer;
+}
+/*• Cursor
+• Set the cursor to look different when hovering over different
+form elements
+• Use a custom image for the cursor when hovering over the
+submit button*/
