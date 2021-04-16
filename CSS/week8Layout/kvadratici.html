@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squares</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+        }
+        .box2 {
+            width: 200px;
+            height: 200px;
+            position: relative;
+        }
+        .box3 {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+        }
+        .red {
+            background-color: red;
+            z-index: 1;
+        }
+        .red2 {
+            background-color: red;
+            z-index: 3;
+            right: 7px;
+        }
+        .yellow {
+            background-color: yellow;
+            z-index: 2;
+        }
+        .yellow2 {
+            background-color: yellow;
+            z-index: 2;
+            left: 100px;
+            top: -100px;
+        }
+        .yellow3 {
+            background-color: yellow;
+            z-index: 2;
+            right: 107px;
+            top:1340px;
+        }
+        .blue {
+            background-color: blue;
+            z-index: 3;
+        }
+        .blue2 {
+            background-color: blue;
+            z-index: 3;
+            left: 200px;
+            top: -200px;
+        }
+        .blue3 {
+            background-color: blue;
+            z-index: 1;
+            right: 207px;
+            top: 1440px;
+        }
+       </style>
+</head>
+<body>
+    <div class = "box red"></div>
+    <div class = "box yellow"></div>
+    <div class = "box blue"></div>
+    <hr>
+    <div class = "box2 red"></div>
+    <div class = "box2 yellow2"></div>
+    <div class = "box2 blue2"></div>
+    <hr>
+    <div class = "box3 red2"></div>
+    <div class = "box3 yellow3"></div>
+    <div class = "box3 blue3"></div>
+    <br><br>
+</body>
+</html>

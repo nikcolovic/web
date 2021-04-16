@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MenuOrange</title>
+    <style>
+        .box {
+            max-width: 600px;
+            height: 200px;
+            background-color: rgb(242, 241, 241);
+            margin: 20px auto;
+            padding: 2px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 15px;
+            padding: 10px;
+            overflow: hidden;
+            background-color: rgb(238, 192, 5);
+            display: inline block;
+        }
+        li {
+            float:left;
+        }
+        .home {
+            background-color: rgb(209, 207, 207);
+        }
+        li a, .dropbtn {
+            display: inline-block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover, .dropdown:hover .dropbtn {
+            background-color: rgb(242, 241, 241);
+        }
+        li.dropdown {
+            display:inline-block;
+        }
+        .dropdown-content {
+            display:none;
+            position: absolute;
+            background-color: white;
+            min-width: 250px;
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        .dropdown-content a:hover {
+            background-color: rgb(242, 241, 241);
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+       </style>
+</head>
+<body>
+    <div class="box">
+        <header>
+        <ul>
+            <li><a href="#home" class ="home">Home</a>
+            <li><a href="#menu1">Menu 1</a></li>
+            <li class = "dropdown">
+                <a href="#menu2" class = "dropbtn">Menu 2</a>
+                <div class = "dropdown-content">
+                    <a href="#">Sub Menu 1</a>
+                    <a href="#">Sum Menu 2</a>
+                    <a href="#">Sub Menu 3</a>
+                </div>
+            </li>
+            <li><a href="#">Menu 3</a></li>
+        </ul>
+       </header>
+    </div>
+</body>
+</html>

@@ -1,0 +1,101 @@
+    .div1 {
+    width: 960px;
+    margin: 0 auto;
+    background-color:rgb(228, 53, 53);
+    margin-bottom: 2px;
+    }
+    header {
+        margin-bottom: 2px;
+    }
+    
+    
+    footer {
+        background-color: rgb(54, 53, 84);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 18px 20px;
+        max-width: 1800px;
+        margin: 0px auto;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+        background-color: rgb(223, 30, 30);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    li {
+        float: right;
+    }
+    li a {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        color: white;
+    }
+    #bit {
+        margin-left: 18%;
+        color: white;
+        text-decoration: none;
+    }
+    .flex {
+        display: flex;
+        flex-wrap: nowrap;
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .box {
+        width: 300px;
+        height: 200px;
+        margin-top: 1px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        padding: 8px;
+    }
+    .red {
+        background-color:  rgb(223, 30, 30);
+        margin: 10px auto; 
+        float: none;
+    }
+    .blue {
+        background-color:  rgb(54, 53, 84);
+        margin: 10px auto;
+        float: none;
+    }
+    .yellow {
+        background-color: gold;
+        margin: 10px auto;
+        float: none;
+    }
+    .green {
+        background-color: green;
+        margin: 10px auto;
+        float: none;
+    }
+    p {
+        color: white;
+        font-size: 26px;
+        text-align: center;
+        padding-top: 62px;
+    }
+    
+    div a {
+        text-decoration: none;
+        font-size: 24px;
+    }
+    .box1 {
+        background-color: rgb(252, 221, 47);
+        width: 300px;
+        height: 300px;
+        margin-right: 0px;
+        margin-left: 16px;
+        margin-top: 8px;
+    } 
+    .rel {
+        position: relative;
+        bottom: 75px;
+    }

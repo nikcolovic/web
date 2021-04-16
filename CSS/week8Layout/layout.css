@@ -12,21 +12,18 @@
     right: 10px;
     top: 15px;
     margin-bottom: 50px;
-    
 }
 
 .img3 {
-    
     width: 200px;
     position: absolute;
-    bottom: 0px;
-    
+    bottom: 0px; 
 }
 
 p {
-    z-index: 1;
     text-align: justify;
     position:static;
+    width: 1200px;
 }
 
 #topOfPage {
