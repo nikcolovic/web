@@ -1,0 +1,91 @@
+body{
+    font-family: sans-serif;
+    color: #444;
+    background-color: #eee;
+    width: 100%;
+}
+h1{
+    font-size: 28pt;
+    color: #66c;
+    text-align: center;
+    border-bottom: 2px solid;
+    border-bottom-color: #66c;
+}
+section {
+    width: 70%;
+    background-color: #edc;
+    margin: auto;
+}
+div{
+    width: 300px;
+    padding: 20px;
+    border: 5px solid;
+    border-color: #666;
+    background-color: #ddd;
+    font-size: 9px;
+    text-align: justify;
+    float: initial;
+}
+.pomeren {
+    background-color: rgba(255, 250, 210, 0.8);
+    margin-top: 30px;
+    margin-left: 70px;
+    position: absolute;
+}
+.spec {
+    background-color: rgba(230, 200, 255, 0.8);
+    margin-top: -10px;
+    margin-left: -100px;
+    position: absolute;
+}
+table{
+    margin: auto;
+    border: 2px solid;
+    border-collapse: collapse;
+
+}
+td, tr {
+    border: 1px solid black;
+    padding-top: 5px ;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+.cel{
+    color: red;
+    background-color: #ffc;
+}
+.cel:hover{
+    background-color: #fcc;
+}
+#float{
+    display: block;
+    float: right;
+    width: 170px;
+    height: 170px;
+    background-color: white;
+    font-size: 7pt;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    position: relative;
+}
+ol{
+    padding: 2em;
+    border: 2px dotted grey;
+    background-color: #def;
+}
+ul{
+    padding: 0.5em;
+    border: 1px solid #25c;
+    list-style: collapse;
+}
+
+.pod {
+    background-color: #efc;
+    padding: 0;
+    border: 1px solid;
+    border-color: green;
+}

@@ -1,0 +1,48 @@
+.separate {
+    display: flex;
+    flex-wrap: wrap;
+    color: khaki;
+    align-items: stretch;
+    justify-content: space-around;
+    align-content: center; 
+}
+.first {
+    display: flex;
+    background-color: crimson;  
+}
+.second {
+    display: flex;
+    background-color: darkblue; 
+}
+.third {
+    display: flex;
+    background-color: darkgoldenrod;  
+}
+.fourth {
+    display: flex;
+    background-color:indigo;  
+}
+.fifth {
+    display: flex;
+    background-color: darkolivegreen;
+}
+.sixth {
+    display: flex;
+    background-color:darkorange;  
+}
+.child {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+.parent{
+    width:100%;
+}
+.parent1{
+    width:50%;
+    margin: auto;
+}
