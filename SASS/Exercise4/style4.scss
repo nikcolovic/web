@@ -1,0 +1,31 @@
+@import 'style4Mixin';
+@import 'style4Variable';
+
+p {
+    @include shadow();
+}
+
+h1 {
+    color: $backColor;
+    font-size: $sizeLetter;
+    @include shadow();
+}
+
+.red {
+
+    @include borderColor(red);
+}
+
+.blue {
+    @include borderColor(blue);;
+}
+
+.green {
+    @include borderColor(green);;  
+}
+
+.wid {
+    width: 600px/900px*100%;
+    margin: 0 auto;
+}
+

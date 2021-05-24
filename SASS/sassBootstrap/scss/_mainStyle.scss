@@ -1,0 +1,48 @@
+h1,
+h2,
+h3 {
+  font-family: Lato;
+}
+p {
+  font-family: Lato;
+}
+
+a#home:hover {
+  font-weight: bolder;
+}
+.nav-item a {
+  border-color: $blueish !important;
+  &:hover {
+    @include transition(all 0.3s);
+    font-weight: bold;
+    border-bottom-color: white !important;
+  }
+}
+img.profile-img {
+  @include transition(all 0.4s);
+  &:hover {
+    @include rotate(360deg);
+  }
+}
+.wrapper {
+  height: 50px;
+}
+.background-color-blue {
+  background-color: $blueish;
+}
+.background-color-green {
+  background-color: $greenish;
+}
+.text-input-color-contact {
+  background-color: $contactColor;
+}
+.thanks {
+  color: $contactColor;
+}
+
+.btn:hover {
+  color: black !important;
+  background-color: $hoverBtn !important;
+  border-color: black !important;
+  @include transition(all 0.7s);
+}

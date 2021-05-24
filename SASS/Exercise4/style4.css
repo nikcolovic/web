@@ -1,0 +1,31 @@
+p {
+  text-shadow: 2px 2px 2px #CE5937;
+  -webkit-box-shadow: blue;
+          box-shadow: blue;
+}
+
+h1 {
+  color: green;
+  font-size: 36px;
+  text-shadow: 2px 2px 2px #CE5937;
+  -webkit-box-shadow: blue;
+          box-shadow: blue;
+}
+
+.red {
+  border: 2px solid red;
+}
+
+.blue {
+  border: 2px solid blue;
+}
+
+.green {
+  border: 2px solid green;
+}
+
+.wid {
+  width: 66.66667%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style4.css.map */

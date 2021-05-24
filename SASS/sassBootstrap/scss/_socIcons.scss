@@ -1,0 +1,42 @@
+.i-wrapp {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 50%;
+  &:first-child:hover {
+    background-color: $fbColor;
+    @include transition(all 0.5s);
+    &:hover {
+      @include rotate(360deg);
+    }
+  }
+  &:nth-child(2):hover {
+    background-color: $gPlusColor;
+    @include transition(all 0.5s);
+    &:hover {
+      @include rotate(360deg);
+    }
+  }
+  &:nth-child(3):hover {
+    background-color: $twitterColor;
+    @include transition(all 0.5s);
+    &:hover {
+      @include rotate(360deg);
+    }
+  }
+  &:last-child:hover {
+    background-color: $linkInColor;
+    @include transition(all 0.5s);
+    &:hover {
+      @include rotate(360deg);
+    }
+  }
+  i {
+    color: white;
+  }
+}

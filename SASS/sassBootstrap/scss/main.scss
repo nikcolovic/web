@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Lato;
+  src: url(../vendor/fonts/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: Lato;
+  src: url(../vendor/fonts/Lato-Bold.ttf);
+  font-weight: bold;
+}
+@import "variables";
+@import "mixins";
+@import "star";
+@import "socIcons";
+
+@import "mainStyle";

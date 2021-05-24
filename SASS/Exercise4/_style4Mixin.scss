@@ -1,0 +1,7 @@
+@mixin shadow() {
+    text-shadow:2px 2px 2px #CE5937;
+    box-shadow: blue;
+}
+@mixin borderColor($color){
+    border: 2px solid $color;
+}

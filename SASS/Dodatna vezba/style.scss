@@ -1,0 +1,89 @@
+$greenish: #3d1dcc;
+$blueish: #2c0646;
+$contactColor: #495057;
+$hoverBtn: #36ce3633;
+$fbColor: #3b5998;
+$gPlusColor: #dd4b39;
+$twitterColor: #00aced;
+$linkInColor: #007bb6;
+@font-face {
+    font-family: Lato;
+    src: url(./fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(./fonts/Lato-Bold.ttf);
+    font-weight: bold;
+}
+
+@import "./decoration";
+@mixin transition($transition) {
+    -webkit-transition: $transition;
+    -moz-transition: $transition;
+    transition: $transition;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Lato;
+}
+
+p {
+    font-family: Lato;
+}
+
+a#home:hover {
+    font-weight: bolder;
+}
+
+.nav-item a {
+    border-color: $blueish !important;
+    &:hover {
+        @include transition(all 0.3s);
+        font-weight: bold;
+        border-bottom-color: white !important;
+    }
+}
+
+.wrapper {
+    height: 50px;
+}
+
+.background-color-blue {
+    background-color: $blueish;
+}
+
+.background-color-green {
+    background-color: $greenish;
+}
+
+.text-input-color-contact {
+    background-color: $contactColor;
+}
+
+.thanks {
+    color: $contactColor;
+}
+
+.btn:hover {
+    color: black !important;
+    background-color: $hoverBtn !important;
+    border-color: black !important;
+}
+
+.i-wrapp {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 50%;
+    i {
+        color: white;
+    }
+}

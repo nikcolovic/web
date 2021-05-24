@@ -1,0 +1,31 @@
+$bckCol: grey;
+$color: white;
+$widthBody: 900px;
+@mixin cool($primaryColor){
+    justify-content: center;
+    align-items: center;
+    display: block;
+    color: $color;
+    width: $widthBody;
+    margin: auto;
+}
+
+h1 {
+    @include cool( green);
+}
+
+div {
+    
+    background-color: $color;
+}
+
+body {
+    background-color: $bckCol;
+}
+
+table {
+    td {
+        background-color: yellow;
+        color: green;
+    }
+}

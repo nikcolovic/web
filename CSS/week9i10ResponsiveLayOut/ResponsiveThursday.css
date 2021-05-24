@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-width: 270px;
+    width: 80%;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+nav {
+    width: 100%;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px 0;
+    display: block;
+    font-size: 25px;
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul li:hover {
+    background-color: #428bca;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+img {
+    width: 100%;
+}
+
+article {
+    margin: 10px;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 18px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    display: block;
+}
+
+button {
+    background-color: rgb(8, 82, 8);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px 20px;
+    margin: 8px 0;
+    width: 100%;
+}
+
+.containerform {
+    padding: 20px;
+}
+
+h3 {
+    display: none;
+}
+
+@media screen and (min-width: 570px) {
+    nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%;
+        margin: 10px 0 0;
+        border: none;
+    }
+    nav ul {
+        float: right;
+    }
+    nav ul li {
+        float: left;
+        border: none;
+    }
+    nav ul li:hover {
+        border-radius: 5px;
+    }
+    nav ul li a {
+        padding: 10px;
+    }
+    .podela {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    h3 {
+        display: block;
+        font-size: 25px;
+        text-align: center;
+    }
+    .container {
+        width: 65%;
+        margin: 0 auto;
+    }
+    main {
+        margin-bottom: 30px;
+    }
+    form {
+        display: flex;
+        margin: 0 auto;
+    }
+    .imgcontainer,
+    .containerform {
+        flex: 1;
+    }
+    .containerform {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
