@@ -4,66 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DOM exercise 1</title>
     
 </head>
 <body>
-    <!--
-        Selecting One/Multiple Elements
-Create two unordered lists on the page.
-    
-Create a function that selects the second list and applies a class that sets 
-some background color to it.
------------------------------------------------------------------
-Create a second function that, when triggered, selects all <li> elements on the page. 
-The function also sets a class that sets some bg color to every <li> element.
-
-Create one more unordered list and one more function
-The function​ should select only <li> elements from that last list
-Each <li> element should get a class that sets some bg color and transforms the text to uppercase.
-
-     -->
-
-    <ul id="differentColor1"class="first">
-        <li>jedan</li>
-        <li>dva</li>
-        <li>tri</li>
-    </ul>
-    <ul id= "differentColor" class="second">
-        <li>one</li>
-        <li>two</li>
-        <li>three</li>
-    </ul>
-    <script src="documentObjectModel.js"></script>
+     <h1>Exercise 1</h1>
+     <h3>Lists</h3>
+        <section>
+            <ul>
+                <li>clan 1</li>
+                <li>clan 2</li>
+                <li>clan 3</li>
+            </ul>
+        </section>
+            <ul>
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+            </ul>
+            <ul class="thirdList">
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+            </ul>
+        <section class="traversing">
+            <div>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>4</li>
+                    <li class="active">5</li>
+                    <li>6</li>
+                </ul>
+            </div>
+        </section>
+        <section class="alert">
+            <ul>
+                <li>About</li>
+                <li>Projects</li>
+                <li>Contact</li>
+            </ul>
+        </section> 
+<script src="documentObjectModel.js"></script>  
 </body>
 </html>
-<!--
-    <html>
-    <head>
-        <title>DOM</title>
-        <style>
-            .classWithBackgroundColor {
-                background-color: blueviolet;
-            }
-            .nesto{
-                background-color: black;
-            }
-        </style>
-    </head>
-    <body>
-        <ul id="nesto">
-            <li>bread</li>
-            <li>milk</li>
-            <li>sugar</li>
-        </ul>
-        <ul>
-            <li>sunglasses</li>
-            <li>towel</li>
-            <li>umbrella</li>
-        </ul>
-    </body>
-    <script src="dom_exercise.js"></script>
-</html>
-
--->
-<script src="vezba15.js"></script>
