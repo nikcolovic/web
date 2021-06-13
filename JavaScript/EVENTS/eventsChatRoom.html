@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatRoom</title>
+    <style>
+    .sent-message-area {
+        border: 5px solid #645e5e;
+        height: 400px;
+        width: 25%;
+        margin: auto;
+        margin-bottom: 50px;
+        }
+
+    form input {
+        margin-bottom: 10px;
+        margin: 0 auto;
+        display: block;
+        padding: 10px 200px 10px 10px;
+        border: 1px solid #BDDCFC;
+        width: 80px;
+        border-radius: 5px;
+        }
+
+    #button {
+        margin: 0 auto;
+        display: block;
+        margin-top: 20px;
+        padding: 5px 15px;
+        border: none;
+        border-radius: 5px;
+        background-color: #C23C2E;
+        color: #fff;
+        font-size: 12px;
+        font-weight: bold;
+        width: 6%;
+        }
+    </style>
+</head>
+<body>
+<!---------------- BODY ------------------->
+<div class="sent-message-area"> </div>
+<form>
+    <input type="text" name="message" placeholder="Enter text...">
+</form>
+<button id="button">Send</button>
+
+<!------- JS Scripts -------->
+<script src="eventsChatRoom.js">
+</script>
+</body>
+</html>
