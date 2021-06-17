@@ -6,20 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>superDarioRunning</title>
     <style>
-        img {
-            background-repeat: repeat;
-            width: 67%;
-            height: 67%;
-            background-position: center center;
-            background-attachment: fixed;
-        }
+        body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+    div{
+    background-image: url("./images/bg.jpg");
+    height: 90%;
+    position: relative;
+    background-repeat: repeat-x;
+    background-size: contain;
+  }
+    img{
+    position: absolute;
+    height: 150px;
+    top: 60%;
+    left: 20%;
+  }
+
         
     </style>
 </head>
 <body>
     <div>
-        <img src="">
+        <img src="./images/mario.png" alt="Mario">
     </div>
-    <script src="superDario.js"></script>
+    <script src="./superDario.js"></script>
 </body>
 </html>
