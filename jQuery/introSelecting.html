@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro Selecting</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>Home</li>
+            <li>Page</li>
+            <li class="middle">Contact</li>
+            <li class="active">About</li>
+            <li>Blog</li>
+        </ul>
+    </div>
+    <!--
+        Intro
+Create a page that is using the jQuery library
+Print ‘Hello, world!’ in console when DOM loads
+
+
+Selecting 
+Create a page that contains navigation (ul element)
+Navigation should contain odd number of elements
+
+$('li:not(:first-child):not(:last-child)').css('color', 'red');
+
+    -->
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            console.log("Hello world")
+        });
+        //Select the first element of the list and give it a bottom border
+        $('li:first').css('border-bottom','solid blue 2px');
+        //Select all list elements and transform their text to uppercase 
+        $('li').css('text-transform', 'uppercase');
+        //Select active element of the list and change its font color
+        $('li.active').css('color', 'green');
+
+        //Find the middle one and change its background color
+        var items = $('li.middle');
+        //$('li:not(:first-child):not(:last-child)').css('color', 'red');
+        items.css({
+        'background-color': '#fff000'
+        });
+
+
+    </script>
+</body>
+</html>
