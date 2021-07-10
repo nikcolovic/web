@@ -21,14 +21,10 @@
 Create a page that is using the jQuery library
 Print ‘Hello, world!’ in console when DOM loads
 
-
-Selecting 
+        Selecting 
 Create a page that contains navigation (ul element)
 Navigation should contain odd number of elements
-
-$('li:not(:first-child):not(:last-child)').css('color', 'red');
-
-    -->
+-->
     <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
     <script>
         $(document).ready(function(){
@@ -43,7 +39,7 @@ $('li:not(:first-child):not(:last-child)').css('color', 'red');
 
         //Find the middle one and change its background color
         var items = $('li.middle');
-        //$('li:not(:first-child):not(:last-child)').css('color', 'red');
+        //$('li:not(:first-child):not(:last-child)').css('background-color', '#fff000');
         items.css({
         'background-color': '#fff000'
         });
