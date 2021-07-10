@@ -36,7 +36,10 @@ footer {
 .searchLine {
   position: relative;
   z-index: 10;
-  width: 200px; }
+  width: 200px;
+  border-radius: 25px;
+  border: 2px dotted khaki; 
+}
 
 .searchLine:focus {
   box-shadow: none; }
@@ -49,15 +52,20 @@ footer {
   border-radius: 10px;
   padding: 0;
   width: 200px;
-  z-index: 9; }
+  z-index: 9; 
+}
   #searchList li {
     position: relative;
     list-style: none;
     background-color: white;
     font-size: 1em;
-    width: 109%; }
+    width: 109%;
+    border: 1px dotted rgb(52, 58, 64); 
+  }
   #searchList li:hover {
-    background-color: #777777; }
+    background-color: #777777; 
+    cursor: pointer;
+  }
 
 .navbar {
   background-color: #006064; }
